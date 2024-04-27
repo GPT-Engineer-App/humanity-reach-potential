@@ -14,17 +14,17 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-cyan-500 to-blue-500 animate-slide-in">
-        <Card>
-          <CardHeader>
+      <div className="flex flex-col items-center justify-center min-h-screen bg-dynamic animate-slide-in">
+        <Card className="card-enhanced">
+          <CardHeader className="card-header-enhanced">
             <CardTitle>Welcome to Anton Osika's Personal Site</CardTitle>
           </CardHeader>
-          <CardContent>
+          <CardContent className="card-content-enhanced">
             <CardDescription>
               Discover the ambitions, theory of change, and principles of Anton Osika. Explore links to detailed background and other resources.
             </CardDescription>
             <hr className="my-4" />
-            <Button onClick={() => setCount(count + 1)}>Engage with Content</Button>
+            <Button className="button-enhanced" onClick={() => setCount(count + 1)}>Engage with Content</Button>
             <div>Interaction Count: {count}</div>
           </CardContent>
         </Card>
