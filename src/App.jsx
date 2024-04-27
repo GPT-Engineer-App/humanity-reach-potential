@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-cyan-500 to-blue-500">
+      <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-cyan-500 to-blue-500 animate-slide-in">
         <Card>
           <CardHeader>
             <CardTitle>Welcome to Anton Osika's Personal Site</CardTitle>
